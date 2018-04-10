@@ -1,0 +1,409 @@
+[{
+  "name": "Acadie",
+  "lat": "45.5233",
+  "lng": "-73.6233",
+  "lines": ["Blue"],
+  "place_id": "ChIJ4fOYgKAZyUwRbNZ_V2Qadpo"
+}, {
+  "name": "Angrignon",
+  "lat": "45.446111111111",
+  "lng": "-73.603611111111",
+  "lines": ["Green"],
+  "place_id": "ChIJ1dO3t-MQyUwRfxroO7oF_Gk"
+}, {
+  "name": "Assomption",
+  "lat": "45.569166666667",
+  "lng": "-73.546944444444",
+  "lines": ["Green"],
+  "place_id": "ChIJ-8G7dBYcyUwRqD3NIBcW7oo"
+}, {
+  "name": "Atwater",
+  "lat": "45.489722222222",
+  "lng": "-73.586111111111",
+  "lines": ["Green"],
+  "place_id": "ChIJvyrlem0ayUwRkAnXL2RIz4g"
+}, {
+  "name": "Beaubien",
+  "lat": "45.535555555556",
+  "lng": "-73.604444444444",
+  "lines": ["Orange"],
+  "place_id": "ChIJ67wONGkZyUwRJQBKkrEljow"
+}, {
+  "name": "Beaudry",
+  "lat": "45.518888888889",
+  "lng": "-73.555833333333",
+  "lines": ["Green"],
+  "place_id": "ChIJgdMUAq4byUwRC8ayLIafSfU"
+}, {
+  "name": "Berri-UQAM",
+  "lat": "45.515277777778",
+  "lng": "-73.561111111111",
+  "lines": ["Orange", "Yellow", "Green"],
+  "place_id": "ChIJyWausLIbyUwRoOFypnlu6Es"
+}, {
+  "name": "Bonaventure",
+  "lat": "45.498055555556",
+  "lng": "-73.567222222222",
+  "lines": ["Orange"],
+  "place_id": "ChIJd5bGUl0ayUwR5IzOeSJZCr8"
+}, {
+  "name": "Cadillac",
+  "lat": "45.576944444444",
+  "lng": "-73.546666666667",
+  "lines": ["Green"],
+  "place_id": "ChIJlXXqEDscyUwR3s5fHUR5jIs"
+}, {
+  "name": "Cartier",
+  "lat": "45.5603",
+  "lng": "-73.6819",
+  "lines": ["Orange"],
+  "place_id": "ChIJa6_PZQgiyUwRdnnKTu5C4e0"
+}, {
+  "name": "Champ-de-Mars",
+  "lat": "45.51",
+  "lng": "-73.556388888889",
+  "lines": ["Orange"],
+  "place_id": "ChIJud-GwFMayUwRKyS9Gb4m0F8"
+}, {
+  "name": "Charlevoix",
+  "lat": "45.478333333333",
+  "lng": "-73.569444444444",
+  "lines": ["Green"],
+  "place_id": "ChIJifVaon8ayUwRkywkhR1agC0"
+}, {
+  "name": "Crémazie",
+  "lat": "45.546111111111",
+  "lng": "-73.638333333333",
+  "lines": ["Orange"],
+  "place_id": "ChIJJQwbPd4YyUwRiYnMwbKH4Z4"
+}, {
+  "name": "Côte-Sainte-Catherine",
+  "lat": "45.492222222222",
+  "lng": "-73.632777777778",
+  "lines": ["Orange"],
+  "place_id": "ChIJV8qUl-YZyUwRIzbwV6KE1XU"
+}, {
+  "name": "Côte-Vertu",
+  "lat": "45.514166666667",
+  "lng": "-73.683055555556",
+  "lines": ["Orange"],
+  "place_id": "ChIJrVf4IWsYyUwRGHDRdIxqikQ"
+}, {
+  "name": "Côte-des-Neiges",
+  "lat": "45.496666666667",
+  "lng": "-73.623333333333",
+  "lines": ["Blue"],
+  "place_id": "ChIJTXUBJvAZyUwRWsldNd71A18"
+}, {
+  "name": "D'Iberville",
+  "lat": "45.553611111111",
+  "lng": "-73.601944444444",
+  "lines": ["Blue"],
+  "place_id": "ChIJf-RX40kZyUwR4-rXSk9w_Zc"
+}, {
+  "name": "De Castelnau",
+  "lat": "45.535277777778",
+  "lng": "-73.62",
+  "lines": ["Blue"],
+  "place_id": "ChIJ-QwpKxIZyUwR7By4cZg2bSc"
+}, {
+  "name": "De L'Église",
+  "lat": "45.462777777778",
+  "lng": "-73.566944444444",
+  "lines": ["Green"],
+  "place_id": "ChIJ85ZBm2YQyUwRbpt3EAwTR2M"
+}, {
+  "name": "De La Concorde",
+  "lat": "45.5608",
+  "lng": "-73.7097",
+  "lines": ["Orange"],
+  "place_id": "ChIJdc3jKTwiyUwRklfuIKptq94"
+}, {
+  "name": "De La Savane",
+  "lat": "45.500277777778",
+  "lng": "-73.661666666667",
+  "lines": ["Orange"],
+  "place_id": "ChIJOQ0NpzIYyUwRngy9tDNxPW0"
+}, {
+  "name": "Du Collège",
+  "lat": "45.508888888889",
+  "lng": "-73.674166666667",
+  "lines": ["Orange"],
+  "place_id": "ChIJO8fT1zgYyUwR5fQ6dBtGFFU"
+}, {
+  "name": "Fabre",
+  "lat": "45.547777777778",
+  "lng": "-73.607222222222",
+  "lines": ["Blue"],
+  "place_id": "ChIJ9_t7ijgZyUwRXgoRh4vBl0c"
+}, {
+  "name": "Frontenac",
+  "lat": "45.533333333333",
+  "lng": "-73.551944444444",
+  "lines": ["Green"],
+  "place_id": "ChIJv69CI5YbyUwRNBCeRZA0LHY"
+}, {
+  "name": "Georges-Vanier",
+  "lat": "45.488888888889",
+  "lng": "-73.576666666667",
+  "lines": ["Orange"],
+  "place_id": "ChIJNdQMtm8ayUwRxJdMDiachPM"
+}, {
+  "name": "Guy-Concordia",
+  "lat": "45.495",
+  "lng": "-73.58",
+  "lines": ["Green"],
+  "place_id": "ChIJIbX0UWoayUwR93wyk2Zn_Co"
+}, {
+  "name": "Henri-Bourassa",
+  "lat": "45.5544",
+  "lng": "-73.6686",
+  "lines": ["Orange"],
+  "place_id": "ChIJl7VDMLsYyUwRgOl4ioDX-aY"
+}, {
+  "name": "Honoré-Beaugrand",
+  "lat": "45.596666666667",
+  "lng": "-73.535555555556",
+  "lines": ["Green"],
+  "place_id": "ChIJD5fTkM8dyUwRBkxmLRCxx2M"
+}, {
+  "name": "Jarry",
+  "lat": "45.543333333333",
+  "lng": "-73.628611111111",
+  "lines": ["Orange"],
+  "place_id": "ChIJ5emtrRgZyUwRZ7TH7Li3lA0"
+}, {
+  "name": "Jean-Drapeau",
+  "lat": "45.5125",
+  "lng": "-73.533055555556",
+  "lines": ["Yellow"],
+  "place_id": "ChIJsZtd0gIbyUwRJZ3gOT3qFvs"
+}, {
+  "name": "Jean-Talon",
+  "lat": "45.5389",
+  "lng": "-73.6142",
+  "lines": ["Orange", "Blue"],
+  "place_id": "ChIJndwz5RQZyUwRVmzAzMz7hqw"
+}, {
+  "name": "Jolicoeur",
+  "lat": "45.456666666667",
+  "lng": "-73.581944444444",
+  "lines": ["Green"],
+  "place_id": "ChIJlfO3rvUQyUwRELV-FnFwuB4"
+}, {
+  "name": "Joliette",
+  "lat": "45.546944444444",
+  "lng": "-73.551388888889",
+  "lines": ["Green"],
+  "place_id": "ChIJlc6foIwbyUwRhUgv5M500lg"
+}, {
+  "name": "LaSalle",
+  "lat": "45.470833333333",
+  "lng": "-73.566388888889",
+  "lines": ["Green"],
+  "place_id": "ChIJgwYTPnwQyUwRMWNIlONF49A"
+}, {
+  "name": "Langelier",
+  "lat": "45.582777777778",
+  "lng": "-73.543055555556",
+  "lines": ["Green"],
+  "place_id": "ChIJwfCIvDEcyUwRXFbwxkf4wk8"
+}, {
+  "name": "Laurier",
+  "lat": "45.527222222222",
+  "lng": "-73.586666666667",
+  "lines": ["Orange"],
+  "place_id": "ChIJDfw1QtcbyUwRQ131vRp0Lfc"
+}, {
+  "name": "Lionel-Groulx",
+  "lat": "45.482777777778",
+  "lng": "-73.579722222222",
+  "lines": ["Orange", "Green"],
+  "place_id": "ChIJ8xdUMHcayUwR6M1HNDWRY5g"
+}, {
+  "name": "Longueuil–Université-de-Sherbrooke",
+  "lat": "45.525277777778",
+  "lng": "-73.521944444444",
+  "lines": ["Yellow"],
+  "place_id": "ChIJ8zkCrRMbyUwR1WJcEVP5s3M"
+}, {
+  "name": "Lucien-L'Allier",
+  "lat": "45.4950209",
+  "lng": "-73.570934",
+  "lines": ["Orange"],
+  "place_id": "ChIJ5Te4b2gayUwR0rjYv6BbEPM"
+}, {
+  "name": "McGill",
+  "lat": "45.503888888889",
+  "lng": "-73.571666666667",
+  "lines": ["Green"],
+  "place_id": "ChIJszy41UUayUwRSdWeDzFG13c"
+}, {
+  "name": "Monk",
+  "lat": "45.451388888889",
+  "lng": "-73.593055555556",
+  "lines": ["Green"],
+  "place_id": "ChIJnakMhfoQyUwRuLJieS3YZw4"
+}, {
+  "name": "Mont-Royal",
+  "lat": "45.524444444444",
+  "lng": "-73.581666666667",
+  "lines": ["Orange"],
+  "place_id": "ChIJx3xZBjMayUwRyh33e_iRnww"
+}, {
+  "name": "Montmorency",
+  "lat": "45.558611111111",
+  "lng": "-73.721666666667",
+  "lines": ["Orange"],
+  "place_id": "ChIJx3pj6TciyUwRXZnjEk83iqc"
+}, {
+  "name": "Namur",
+  "lat": "45.494722222222",
+  "lng": "-73.652777777778",
+  "lines": ["Orange"],
+  "place_id": "ChIJ9UAU29AZyUwRt6MMS8eHXFQ"
+}, {
+  "name": "Outremont",
+  "lat": "45.520277777778",
+  "lng": "-73.615",
+  "lines": ["Blue"],
+  "place_id": "ChIJLQYV050ZyUwRwm935qE6qRE"
+}, {
+  "name": "Papineau",
+  "lat": "45.523611111111",
+  "lng": "-73.552222222222",
+  "lines": ["Green"],
+  "place_id": "ChIJW3t8Q6UbyUwRqgpsvHuOvYI"
+}, {
+  "name": "Parc",
+  "lat": "45.530277777778",
+  "lng": "-73.623888888889",
+  "lines": ["Blue"],
+  "place_id": "ChIJkdeDkA4ZyUwRf4qIM43iC_0"
+}, {
+  "name": "Peel",
+  "lat": "45.500833333333",
+  "lng": "-73.574722222222",
+  "lines": ["Green"],
+  "place_id": "ChIJz_NsQEEayUwREJMdPZJ0lqw"
+}, {
+  "name": "Pie-IX",
+  "lat": "45.553888888889",
+  "lng": "-73.551666666667",
+  "lines": ["Green"],
+  "place_id": "ChIJE-4V-QocyUwRsRvg6K95mts"
+}, {
+  "name": "Place-Saint-Henri",
+  "lat": "45.477222222222",
+  "lng": "-73.586666666667",
+  "lines": ["Orange"],
+  "place_id": "ChIJnyzZ0p0QyUwRRuasmOSFNZw"
+}, {
+  "name": "Place-d'Armes",
+  "lat": "45.5050047",
+  "lng": "-73.5617852",
+  "lines": ["Orange"],
+  "place_id": "ChIJl2Bg8VAayUwRFBV-Kt2vKrM"
+}, {
+  "name": "Place-des-Arts",
+  "lat": "45.508055555556",
+  "lng": "-73.568611111111",
+  "lines": ["Green"],
+  "place_id": "ChIJ4WTsJ08ayUwRJwThe92PupQ"
+}, {
+  "name": "Plamondon",
+  "lat": "45.495555555556",
+  "lng": "-73.640555555556",
+  "lines": ["Orange"],
+  "place_id": "ChIJa2yreN0ZyUwRehvg2_DLGmE"
+}, {
+  "name": "Préfontaine",
+  "lat": "45.541666666667",
+  "lng": "-73.554444444444",
+  "lines": ["Green"],
+  "place_id": "ChIJo_6HlZIbyUwRdQxJfROC7vI"
+}, {
+  "name": "Radisson",
+  "lat": "45.588888888889",
+  "lng": "-73.539444444444",
+  "lines": ["Green"],
+  "place_id": "ChIJg3LQN80dyUwROJwogFeYpLw"
+}, {
+  "name": "Rosemont",
+  "lat": "45.531111111111",
+  "lng": "-73.5975",
+  "lines": ["Orange"],
+  "place_id": "ChIJaceJ7mQZyUwRiFQItswik_I"
+}, {
+  "name": "Saint-Laurent",
+  "lat": "45.5108386",
+  "lng": "-73.5648192",
+  "lines": ["Green"],
+  "place_id": "ChIJM0HDL0wayUwRWIDgFrnRf18"
+}, {
+  "name": "Saint-Michel",
+  "lat": "45.5597",
+  "lng": "-73.6",
+  "lines": ["Blue"],
+  "place_id": "ChIJ26yiu8oeyUwRPc_dpYaGFVI"
+}, {
+  "name": "Sauvé",
+  "lat": "45.550833333333",
+  "lng": "-73.656111111111",
+  "lines": ["Orange"],
+  "place_id": "ChIJwQP4jMAYyUwRIMjS5rKdjDU"
+}, {
+  "name": "Sherbrooke",
+  "lat": "45.518888888889",
+  "lng": "-73.568888888889",
+  "lines": ["Orange"],
+  "place_id": "ChIJFQ7omLUbyUwRw78H6Q3ttjY"
+}, {
+  "name": "Snowdon",
+  "lat": "45.485555555556",
+  "lng": "-73.628055555556",
+  "lines": ["Orange", "Blue"],
+  "place_id": "ChIJ3_sR4VcXyUwR9p0qROpTp-c"
+}, {
+  "name": "Square-Victoria",
+  "lat": "45.501944444444",
+  "lng": "-73.563055555556",
+  "lines": ["Orange"],
+  "place_id": "ChIJz3AwMFsayUwRTQPrLsbcwSA"
+}, {
+  "name": "Université-de-Montréal",
+  "lat": "45.503333333333",
+  "lng": "-73.6175",
+  "lines": ["Blue"],
+  "place_id": "ChIJLdy_svIZyUwRi1TRd9BK94E"
+}, {
+  "name": "Vendôme",
+  "lat": "45.4739",
+  "lng": "-73.6039",
+  "lines": ["Orange"],
+  "place_id": "ChIJJbKak6QQyUwRpPmXCJUBSmI"
+}, {
+  "name": "Verdun",
+  "lat": "45.459444444444",
+  "lng": "-73.571666666667",
+  "lines": ["Green"],
+  "place_id": "ChIJgRVpymAQyUwRqZIhjIHQY-U"
+}, {
+  "name": "Viau",
+  "lat": "45.561111111111",
+  "lng": "-73.547222222222",
+  "lines": ["Green"],
+  "place_id": "ChIJu6CvghIcyUwR2YjnI0w8bCQ"
+}, {
+  "name": "Villa-Maria",
+  "lat": "45.4794",
+  "lng": "-73.6197",
+  "lines": ["Orange"],
+  "place_id": "ChIJ_RtxVlMXyUwRPemBgove28k"
+}, {
+  "name": "Édouard-Montpetit",
+  "lat": "45.51",
+  "lng": "-73.6125",
+  "lines": ["Blue"],
+  "place_id": "ChIJsf37so8ZyUwRv0PVcb50Zr8"
+}]
