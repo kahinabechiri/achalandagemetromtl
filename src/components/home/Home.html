@@ -1,0 +1,88 @@
+<main class="home-wrapper">
+  <nav id="sidebar" v-bind:class="{ hidden: panelIsHidden }">
+    <div class="input-params">
+      <div class="range-day">
+        <div class="range-start">
+          <label>De</label>
+          <select id="start-day" class="form-control" :disabled="animationState != 1" v-model="startDay" v-on:change="startDayChanged">
+            <option v-for="day in days" v-bind:value="day.value">
+              {{ day.name }}
+            </option>
+          </select>
+        </div>
+        <div class="range-end">
+          <label>À</label>
+          <select id="end-day" class="form-control" :disabled="animationState != 1" v-model="endDay" v-on:change="endDayChanged">
+            <option v-for="day in days" v-bind:value="day.value">
+              {{ day.name }}
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="range-time">
+        <div class="range-start">
+          <label>De</label>
+          <select id="start-time" class="form-control" :disabled="animationState != 1" v-model="startHour" v-on:change="startHourChanged">
+            <option v-for="hour in hours" v-bind:value="hour.value">
+              {{ hour.name }}
+            </option>
+          </select>
+        </div>
+        <div class="range-end">
+          <label>À</label>
+          <select id="end-time" class="form-control" :disabled="animationState != 1" v-model="endHour" v-on:change="endHourChanged">
+            <option v-for="hour in hours" v-bind:value="hour.value">
+              {{ hour.name }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <hr class="separator">
+    <div class="controls">
+      <button class="stop" v-on:click="stopEvent" :disabled="animationState === 1" :class="{enabled: animationState != 1}">
+        <span><i class="fa fa-stop"></i></span>
+      </button>
+      <button class="backward" v-on:click="backwardEvent" :disabled="currentSpeedMultiplier === minSpeedMultiplier" :class="{disabled: currentSpeedMultiplier === minSpeedMultiplier}">
+        <span><i class="fa fa-backward"></i></span>
+      </button>
+      <button v-if="animationState != 2" class="play" v-on:click="playEvent">
+        <span><i class="fa fa-play"></i></span>
+      </button>
+      <button v-if="animationState === 2" class="pause" v-on:click="pauseEvent">
+        <span><i class="fa fa-pause"></i></span>
+      </button>
+      <button class="forward" v-on:click="forwardEvent" :disabled="currentSpeedMultiplier === maxSpeedMultiplier" :class="{disabled: currentSpeedMultiplier === maxSpeedMultiplier}">
+        <span><i class="fa fa-forward"></i></span>
+      </button>
+      <span class="speed"> {{ currentSpeedMultiplier | fixedDecimal}}x</span>
+    </div>
+    <div class="legend-wrapper">
+      <div>Les cercles sont proportionnels au taux de fréquentation</div>
+      <legend-view />
+    </div>
+  </nav>
+
+  <div id="content">
+    <div class="map-controls">
+      <a id="sidebarCollapse" v-on:click="panelIsHidden = !panelIsHidden">
+        <i v-if="!panelIsHidden" class="fa fa-angle-double-left"></i>
+        <i v-if="panelIsHidden" class="fa fa-angle-double-right"></i>
+      </a>
+      <div class="zoom">
+        <a class="zoom-in" v-on:click="zoomIn" v-bind:class="{ disabled: currentZoom >= maxZoom }">
+          <span>+</span>
+        </a>
+        <a class="zoom-out" v-on:click="zoomOut" v-bind:class="{ disabled: currentZoom <= minZoom }">
+          <span>-</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="time-hour"> {{ hours[currentHour].name }}</div>
+
+    <div class="map-wrapper" ref="mapWrapper"></div>
+    <div id="tooltip" class="hidden">
+    </div>
+  </div>
+</main>

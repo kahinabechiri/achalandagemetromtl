@@ -1,0 +1,176 @@
+@import '../../../static/css/variables.less';
+@import '../../../static/css/font-awesome-4.7.0/less/font-awesome.less';
+
+.multilpe-maps-wrapper {
+    display: flex;
+    align-items: stretch;
+    margin-top: @header-max-height;
+    width: 100%;
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        min-height: calc(100vh - 85px);
+        background-color: #263238;
+        color: #fff;
+        transition: all 0.3s;
+        color: white;
+
+        &.hidden {
+          margin-left: -250px;
+        }
+
+        .separator {
+          margin: 50px 10px 0 10px;
+          border-top: 1px solid gray;
+        }
+
+        .input-params {
+          margin-top: 20px;
+          margin-left: 15px;
+
+          label {
+            color: #dad5d5;
+          }
+
+          select {
+            width: 95%;
+            padding: 2px;
+          }
+
+          .range-start,
+          .range-end {
+            width: 48%;
+            display: inline-block;
+            margin-top: 20px;
+          }
+        }
+
+        .legend-wrapper {
+          position: fixed;
+          bottom: 0;
+          width: 250px;
+          text-align: center;
+          color: #dad5d5;
+        }
+    }
+
+    #content {
+      width: 100%;
+      min-height: 100%;
+
+      .map-controls {
+        margin: 20px;
+        position: absolute;
+        color: #263238;
+
+        #sidebarCollapse {
+          margin-bottom: 20px;
+        }
+
+        #sidebarCollapse,
+        .zoom-in,
+        .zoom-out {
+          display: block;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          display: block;
+          margin: 1px;
+          padding: 0;
+          color: black;
+          font-size: 1.14em;
+          font-weight: bold;
+          text-align: center;
+          background-color: #b3b3b363;
+          opacity: 0.9;
+          border: 1px solid #ccc;
+
+          &:hover {
+            background-color: #b3b3b31a;
+          }
+
+          &.disabled {
+            color: gray;
+          }
+        }
+      }
+    }
+
+    .maps-wrapper {
+      width: 100%;
+      height: 100%;
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .map {
+        margin-top: 20px;
+        border: 1px solid #999;
+        box-shadow: 0 0 3px -1px #000;
+      }
+    }
+
+    svg.clock {
+    	stroke: #000;
+    	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+
+    .hour.hand {
+      stroke: black;
+    }
+
+    .centerdot {
+      fill: black;
+      stroke: black;
+      stroke-width: 1;
+    }
+
+    .regular {
+      stroke-width: 1;
+    }
+
+    .quarter {
+      stroke-width: 2;
+    }
+
+    .am-time {
+      fill: gray;
+      opacity: 0.4;
+      stroke-width: 0;
+
+      &.active {
+        fill: blue;
+        opacity: 0.8;
+      }
+    }
+
+    .pm-time {
+      fill: gray;
+      opacity: 0.4;
+      stroke-width: 0;
+
+      &.active {
+        fill: red;
+        opacity: 0.8;
+      }
+    }
+
+    .time-label {
+      fill: white;
+      stroke-width: 0;
+      font-size: 7px;
+    }
+}
+
+@media (max-width: 768px) {
+  .multilpe-maps-wrapper {
+    #sidebar {
+        margin-left: -250px;
+    }
+
+    #content {
+      min-width: 100%;
+    }
+  }
+}

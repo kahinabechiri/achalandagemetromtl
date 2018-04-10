@@ -1,0 +1,20 @@
+<div class="overview-wrapper">
+
+	<nav id="sidebar" v-bind:class="{ hidden: panelIsHidden }">
+		<p style='margin: 10px;'>Dans cette cartographie spatiale et temporelle, nous représentons l'achalandage du metro de Montréal avec des cartes de chaleur imbriquées dans une grille en tuiles. Cette vue d'ensemble nous permet de dégager rapidement les tendances selon les jours
+			et les heures pour l'ensemble des 68 stations de la STM. La station Jean-Talon était la seule station n'ayant aucune donnée accessible.</p>
+		<h5 style='margin-left: 10px; margin-bottom: 12px;margin-top: 20px;'>Légendes</h5>
+		<div class='legends'></div>
+	</nav>
+
+	<div id="content">
+		<div class="map-controls">
+			<a id="sidebarCollapse" v-on:click="panelIsHidden = !panelIsHidden">
+        <i v-if="!panelIsHidden" class="fa fa-angle-double-left"></i>
+        <i v-if="panelIsHidden" class="fa fa-angle-double-right"></i>
+      </a>
+		</div>
+
+		<section id='grid'></section>
+	</div>
+</div>

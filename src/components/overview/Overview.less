@@ -1,0 +1,83 @@
+@import '../../../static/css/variables.less';
+@import '../../../static/css/font-awesome-4.7.0/less/font-awesome.less';
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.overview-wrapper {
+    display: flex;
+    align-items: stretch;
+    margin-top: @header-max-height;
+    width: 100%;
+
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        min-height: calc(100vh - 85px);
+        background-color: #263238;
+        color: #fff;
+        transition: all 0.3s;
+        color: white;
+
+        &.hidden {
+          margin-left: -250px;
+        }
+
+        .heatmapaxis {
+          margin-top: 40px;
+
+          .domain,
+          .tick line {
+            stroke: white;
+          }
+        }
+
+        .colorscale {
+          .label {
+            stroke-width: 0;
+            font-size: 12px;
+          }
+        }
+    }
+
+    #content {
+      //min-width: calc(100% - 300px);
+      width: 100%;
+      min-height: 100%;
+      text-align: center;
+      //height: 500px;
+
+      .map-controls {
+        margin: 20px;
+        position: absolute;
+        color: #263238;
+
+        #sidebarCollapse {
+          margin-bottom: 20px;
+        }
+
+        #sidebarCollapse {
+          display: block;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          display: block;
+          margin: 1px;
+          padding: 0;
+          color: black;
+          font-size: 1.14em;
+          font-weight: bold;
+          text-align: center;
+          background-color: #b3b3b363;
+          opacity: 0.9;
+          border: 1px solid #ccc;
+
+          &:hover {
+            background-color: #b3b3b31a;
+          }
+        }
+      }
+
+      #grid {
+        display: inline-block;
+      }
+    }
+}

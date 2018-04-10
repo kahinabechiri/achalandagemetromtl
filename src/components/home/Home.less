@@ -1,0 +1,241 @@
+@import '../../../static/css/variables.less';
+@import '../../../static/css/font-awesome-4.7.0/less/font-awesome.less';
+
+.home-wrapper {
+    display: flex;
+    align-items: stretch;
+    margin-top: @header-max-height;
+    width: 100%;
+
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        min-height: calc(100vh - 85px);
+        background-color: #263238;
+        color: #fff;
+        transition: all 0.3s;
+        color: white;
+
+        &.hidden {
+          margin-left: -250px;
+        }
+
+        .separator {
+          margin: 50px 10px 0 10px;
+          border-top: 1px solid gray;
+        }
+
+        .input-params {
+          margin-left: 10px;
+
+          label {
+            color: #dad5d5;
+          }
+
+          select {
+            width: 90%;
+            padding: 2px;
+          }
+
+          .range-start,
+          .range-end {
+            width: 49%;
+            display: inline-block;
+            margin-top: 20px;
+          }
+        }
+
+        .controls {
+          display: inline-block;
+          width: 100%;
+          text-align: center;
+          margin-left: -10px;
+          margin-top: 30px;
+
+          button {
+            border: 0;
+            background: transparent;
+            margin: 0;
+            outline-width: 0;
+            padding: 0;
+            cursor: pointer;
+            height: 39px;
+            width: 39px;
+          }
+
+          .stop {
+            color: gray;
+
+            &.enabled {
+              color: red;
+            }
+          }
+
+          .pause {
+            color: red;
+          }
+
+          .backward {
+            color: white;
+
+            &.disabled {
+              color: gray;
+            }
+          }
+
+          .play {
+            color: green;
+          }
+
+          .forward {
+            color: white;
+
+            &.disabled {
+              color: gray;
+            }
+          }
+
+          .speed {
+            color: #dad5d5;
+          }
+        }
+
+        .legend-wrapper {
+          position: fixed;
+          bottom: 0;
+          width: 250px;
+          text-align: center;
+          color: #dad5d5;
+        }
+    }
+
+    #content {
+      //min-width: calc(100% - 300px);
+      width: 100%;
+      min-height: 100%;
+      //height: 500px;
+      .time-hour {
+        margin: 20px;
+        position: absolute;
+        left: 50%;
+        font-weight: bold;
+      }
+
+      .map-controls {
+        margin: 20px;
+        position: absolute;
+        color: #263238;
+
+        #sidebarCollapse {
+          margin-bottom: 20px;
+        }
+
+        #sidebarCollapse,
+        .zoom-in,
+        .zoom-out {
+          display: block;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          display: block;
+          margin: 1px;
+          padding: 0;
+          color: black;
+          font-size: 1.14em;
+          font-weight: bold;
+          text-align: center;
+          background-color: #b3b3b363;
+          opacity: 0.9;
+          border: 1px solid #ccc;
+
+          &:hover {
+            background-color: #b3b3b31a;
+          }
+
+          &.disabled {
+            color: gray;
+          }
+        }
+      }
+
+      .current-time {
+        position: fixed;
+        bottom: 20px;
+        margin-left: 20px;
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      path {
+        fill: #ccc;
+        stroke: #fff;
+        stroke-width: .5px;
+      }
+
+      path:hover {
+        // fill: red;
+      }
+
+      .map-wrapper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .ticks {
+        font: 10px sans-serif;
+      }
+
+      .track,
+      .track-inset,
+      .track-overlay {
+        stroke-linecap: round;
+      }
+
+      .track {
+        stroke: #000;
+        stroke-opacity: 0.3;
+        stroke-width: 10px;
+      }
+
+      .track-inset {
+        stroke: #ddd;
+        stroke-width: 8px;
+      }
+
+      .track-overlay {
+        pointer-events: stroke;
+        stroke-width: 50px;
+        stroke: transparent;
+      }
+    }
+
+    //Tooltip style
+    #tooltip {
+       position: absolute;
+       width: auto;
+       height: auto;
+       padding: 10px;
+       background-color: white;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       border-radius: 5px;
+       -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+       -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+       box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+       pointer-events: none;
+
+       &.hidden {
+         display: none;
+       }
+     }
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+
+    #content {
+      min-width: 100%;
+    }
+}

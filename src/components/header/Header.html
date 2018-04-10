@@ -1,0 +1,31 @@
+<header>
+  <div class="high-resol-nav">
+    <div class="logo">
+      <img src="static/img/de_la_concorde.jpg">
+      <span>Achalandage dans le métro de Montréal</span>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <router-link to="/about" class="about-link">À propos</router-link>
+        </li>
+        <li>
+          <router-link to="/multiple-maps" class="multiple-maps-link">Vue horaire</router-link>
+        </li>
+        <li>
+          <router-link to="/overview" class="overview-link">Vue globale</router-link>
+        </li>
+        <li>
+          <router-link to="/" class="home-link">Accueil</router-link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="small-resol-nav">
+    <div class="logo">
+      <img src="static/img/de_la_concorde.jpg">
+      <span>Achalandage dans le métro de Montréal</span>
+    </div>
+    <quick-menu :menu-count=getCount :icon-class=icons :menu-url-list=list :background-color=backgroundColor :color=color :position=position :is-open-new-tab=getIsOpenNewTab></quick-menu>
+  </div>
+</header>

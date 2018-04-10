@@ -1,0 +1,44 @@
+<main class="multilpe-maps-wrapper">
+  <nav id="sidebar" v-bind:class="{ hidden: panelIsHidden }">
+    <div class="input-params">
+      <select id="day" class="form-control" v-model="day" v-on:change="dayChanged">
+        <option v-for="day in days" v-bind:value="day.value">
+          {{ day.name }}
+        </option>
+      </select>
+      <div class="range-time">
+        <div class="range-start">
+          <label>De</label>
+          <select id="start-time" class="form-control" v-model="startHour" v-on:change="startHourChanged">
+            <option v-for="hour in hours" v-bind:value="hour.value">
+              {{ hour.name }}
+            </option>
+          </select>
+        </div>
+        <div class="range-end">
+          <label>À</label>
+          <select id="end-time" class="form-control" v-model="endHour" v-on:change="endHourChanged">
+            <option v-for="hour in hours" v-bind:value="hour.value">
+              {{ hour.name }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <hr class="separator">
+    <div class="legend-wrapper">
+      <div>Les cercles sont proportionnels au taux de fréquentation</div>
+      <legend-view />
+    </div>
+  </nav>
+
+  <div id="content">
+    <div class="map-controls">
+      <a id="sidebarCollapse" v-on:click="panelIsHidden = !panelIsHidden">
+        <i v-if="!panelIsHidden" class="fa fa-angle-double-left"></i>
+        <i v-if="panelIsHidden" class="fa fa-angle-double-right"></i>
+      </a>
+    </div>
+    <div class="maps-wrapper" ref="mapsWrapper"></div>
+  </div>
+</main>

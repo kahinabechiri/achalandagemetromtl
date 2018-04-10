@@ -1,0 +1,124 @@
+@import '../../../static/css/variables.less';
+@import '../../../static/css/font-awesome-4.7.0/less/font-awesome.less';
+
+header {
+  //padding-left: @content-padding-left;
+  padding-right: @content-padding-left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 500;
+  -webkit-box-shadow: 0 4px 4px rgba(81,81,81,0.2);
+  -moz-box-shadow: 0 4px 4px rgba(81,81,81,0.2);
+  box-shadow: 0 4px 4px rgba(81,81,81,0.2);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: @header-max-height;
+
+  .logo {
+    display: inline-block;
+
+    img {
+      width: 250px;
+      height: @header-max-height;
+      vertical-align: middle;
+    }
+
+    span {
+      padding-left: 20px;
+      color: #6D6D6D;
+      font-size: 1em;
+    }
+  }
+
+  .high-resol-nav {
+    display: inline-block;
+    width: 100%;
+
+    nav {
+      display: inline-block;
+      margin-top: 20px;
+      float: right;
+
+      ul {
+        list-style-type: none;
+
+        li {
+          list-style-type: none;
+          float: right;
+          margin: 0;
+          padding: 0;
+
+          a {
+            color: #3C3C3C;
+            display: block;
+            font-family: 'stm_montreal',Arial,"Helvetica Neue",Helvetica,sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            margin: 5px 25px 0 0;
+            min-height: 40px;
+            padding: 0;
+            text-transform: uppercase;
+            text-decoration: none;
+
+            &.router-link-exact-active,
+            &:hover {
+              color: #007EB6;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .small-resol-nav {
+    .quick-menu {
+      top: 10px !important;
+
+      .sub-menu {
+        opacity: 0.9 !important;
+
+        a:hover {
+          background-color: #1716169e !important;
+            opacity: 0.4 !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1079px) {
+    .high-resol-nav {
+      display: none !important;
+    }
+
+    .small-resol-nav {
+      display: block !important;
+    }
+}
+
+@media (min-width: 1080px) {
+    .high-resol-nav {
+      display: inline-block !important;
+    }
+
+    .small-resol-nav {
+      display: none !important;
+    }
+}
+
+@media (max-width: 749px) {
+    .logo span {
+      display: none !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .logo span {
+      display: inline-block !important;
+    }
+}
