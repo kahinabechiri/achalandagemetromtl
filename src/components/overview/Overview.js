@@ -78,10 +78,10 @@ export default {
         }
       };
 
-      d3.text("/static/data/metro_matrix.csv", function(d) {
+      d3.text("static/data/metro_matrix.csv", function(d) {
         context.data = d3.csvParseRows(d)
 
-        d3.json("/static/data/pt_metro.json", function(d) {
+        d3.json("static/data/pt_metro.json", function(d) {
           context.popularTimes = d;
           preprocess();
           context.generateMap(context)
